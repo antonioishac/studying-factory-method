@@ -1,4 +1,4 @@
-package br.com.aishac.studying.domains.services.impl;
+package br.com.aishac.studying.domains.services.impl.xml;
 
 import br.com.aishac.studying.domains.repositories.ContactRepository;
 import br.com.aishac.studying.domains.repositories.entities.ContactEntity;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor
-public class ContactCsvService implements ContactRepository {
+public class ContactXmlService implements ContactRepository {
 
     private String fileName;
 
